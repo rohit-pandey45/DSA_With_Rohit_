@@ -42,7 +42,7 @@ int main(){
 
 
 //GEEKS FOR GEEKS SOLUTION
-
+//sc : O(3n)    tc : O(N) + O(2E) e = degree
 // class Solution {
 //   public:
 //     // Function to return Breadth First Traversal of given graph.

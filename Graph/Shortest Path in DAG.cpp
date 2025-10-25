@@ -27,7 +27,7 @@ class Solution {
                 dfs(i,vis,adj,st);
             }
         }
-        
+        //A source node is a node with no incoming edges thats why it is at the top of stack
         vector<int> dist(V, 1e9);
         dist[0] = 0;
         while (!st.empty()) {

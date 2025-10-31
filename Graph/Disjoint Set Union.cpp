@@ -16,3 +16,5 @@ void unionSet(int par[], int x, int z) {
         par[px] = pz;  
     }
 }
+//UNION BY SIZE 
+//smaller get added to larger

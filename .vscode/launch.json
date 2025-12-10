@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Rohit Coding/Git_Demo/Data Structures and Algorithms in C++/DSA_With_Rohit_/Graph",
-      "program": "d:/Rohit Coding/Git_Demo/Data Structures and Algorithms in C++/DSA_With_Rohit_/Graph/build/Debug/outDebug",
+      "cwd": "d:/Rohit Coding/Git_Demo/Data Structures and Algorithms in C++/DSA_With_Rohit_/Array",
+      "program": "d:/Rohit Coding/Git_Demo/Data Structures and Algorithms in C++/DSA_With_Rohit_/Array/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

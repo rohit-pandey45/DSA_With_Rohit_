@@ -1,0 +1,33 @@
+class Solution {
+  public:
+    double fractionalKnapsack(vector<int>& val, vector<int>& wt, int capacity) {
+        int n = wt.size();
+
+        vector<pair<double, pair<int,int>>> items;
+        for (int i = 0; i < n; i++) {
+            double ratio = (double) val[i] / wt[i];
+            items.push_back({ratio, {val[i], wt[i]}});
+        }
+
+        // sort by ratio descending
+        sort(items.begin(), items.end(), greater<>());
+
+        double maxValue = 0.0;
+
+        for (auto &it : items) {
+            int value = it.second.first;
+            int weight = it.second.second;
+
+            if (capacity >= weight) {
+                maxValue += value;
+                capacity -= weight;
+            } else {
+                maxValue += it.first * capacity; // fraction
+                break;
+            }
+        }
+
+        return maxValue;
+        
+    }
+};

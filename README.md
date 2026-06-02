@@ -6,7 +6,7 @@ Welcome to my **DSA Repository**! This is where I upload and maintain my **verif
 
 ## 📌 What's Inside?
 
-✅ 100+ problems solved and regularly updated  
+✅ 250+ problems solved and regularly updated  
 ✅ All solutions are written in **C++**  
 ✅ Problems sourced from **LeetCode** and **GeeksforGeeks**  
 ✅ Clean, well-structured, and verified code  

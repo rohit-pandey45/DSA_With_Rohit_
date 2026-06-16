@@ -22,3 +22,34 @@ public:
         return count;
     }
 };
+
+// BFS
+//class Solution {
+// public:
+//     int findCircleNum(vector<vector<int>>& isConnected) {
+//         int V = isConnected.size();
+//         int provinces = 0;
+//         vector<bool> vis(V,false);
+//         for(int i = 0; i<V; i++){
+//             if(!vis[i]){
+//                 provinces++;
+
+//                 queue<int> q;
+//                 q.push(i);
+//                 vis[i] = true;
+
+//                 while(!q.empty()){
+//                     int node = q.front();
+//                     q.pop();
+//                     for(int j = 0; j<V; j++){
+//                         if(isConnected[node][j] == 1 && !vis[j]){
+//                             vis[j] = true;
+//                             q.push(j);
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         return provinces;
+//     }
+// };
